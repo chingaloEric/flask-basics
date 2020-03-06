@@ -6,7 +6,7 @@ This is a flask application that allow adding, deletion and update of todos from
 
 1. install python 3
 
-2. Clone the project and navigate to the project folder.
+2. Clone the project `git clone https://github.com/chingaloEric/flask-basics.git` and navigate to the project folder `cd flask-basics`.
 
 3. On the terminal while in project folder open the python shell by running `python3` for linux/macOS or `python` for windows
 

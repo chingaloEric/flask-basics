@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/main.css')}}"
+    />
+    <script src="{{url_for('static', filename='js/main.js')}}"></script>
+
+    <style>
+      h2,
+      h3 {
+        text-align: center;
+      }
+      .content table,
+      .form {
+        margin: 0 20%;
+        width: 60%;
+      }
+
+      .inputs {
+        margin: 0 auto;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: auto;
+      }
+
+      td {
+        min-width: 70px;
+      }
+
+      a {
+        margin: 1px;
+      }
+    </style>
+    {% block head %}{% endblock %}
+  </head>
+  <body>
+    {% block body%}{% endblock %}
+  </body>
+</html>
